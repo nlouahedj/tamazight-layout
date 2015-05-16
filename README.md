@@ -12,7 +12,7 @@ All operations will be done as **root**.
 
 1.  Copy the file `symbols/dz` to `/usr/share/X11/xkb/symbols/dz`.
 2.  Open the file `/usr/share/X11/xkb/rules/base.lst` and add `dz              Amazigh (Tamazgha)` after `!layout`.
-3.  Open the file `/usr/share/X11/xkb/rules/base.lst` and add the folowing lines inside `<layoutList> ... </layoutList>`:
+3.  Open the file `/usr/share/X11/xkb/rules/base.xml` and add the folowing lines inside `<layoutList> ... </layoutList>`:
 
     ```
     <layout>
@@ -36,7 +36,7 @@ All operations will be done as **root**.
     </layout>
   ```
 4.  Open the file `/usr/share/X11/xkb/rules/evdev.lst` and add `dz              Amazigh (Tamazgha)` after `!layout`.
-5.  Open the file `/usr/share/X11/xkb/rules/evdev.lst` and add the folowing lines inside `<layoutList> ... </layoutList>`:
+5.  Open the file `/usr/share/X11/xkb/rules/evdev.xml` and add the folowing lines inside `<layoutList> ... </layoutList>`:
 
     ```
     <layout>
