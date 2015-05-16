@@ -1,0 +1,28 @@
+<layoutList>
+.
+..
+...
+	<layout>
+      <configItem>
+        <name>dz</name>
+        
+        <shortDescription>mz</shortDescription>
+        <description>Amazigh (Tamazgha, Amazigh latin caracters)</description>
+      </configItem>
+      <variantList>
+		<variant>
+		  <configItem>
+		        <name>amazigh-tifinagh</name>
+		        <shortDescription>tif</shortDescription>
+		        <description>Amazigh (Tamazgha, Amazigh tifinagh caracters)</description>
+		        <languageList>
+		        <iso639Id>fra</iso639Id>
+		        </languageList>
+		      </configItem>
+		</variant>
+      </variantList>
+    </layout>
+...
+..
+.
+</layoutList>
