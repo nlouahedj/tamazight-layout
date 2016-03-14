@@ -1,2 +1,8 @@
 !layout
-  dz              Amazigh (Tamazgha)
+  dz              Tamazight (DZ)
+
+
+! variant
+  tif             dz: Tamazight (Tamazgha, Tifinagh caracters)
+  lat             dz: Tamazight (Tamazgha, Latin caracters)
+  ar              dz: Arabic (Tamazgha)
