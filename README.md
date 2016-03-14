@@ -45,7 +45,6 @@ after `! variant` in `/usr/share/X11/xkb/rules/base.lst` and `/usr/share/X11/xkb
       </variantList>
     </layout>
     ```
-
 4.  Restart the Xorg server or your computer.
 5.  Now you can finde the layout in the keyboard settings of your disktop manager: 
 Tamazight (Tamazgha, Latin caracters) and Tamazight (Tamazgha, Tifinagh caracters).
