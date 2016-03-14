@@ -17,7 +17,7 @@ All operations will be done as **root**.
   lat             dz: Tamazight (Tamazgha, Latin caracters)
   ar              dz: Arabic (Tamazgha)
 ```
-after `variant` in `/usr/share/X11/xkb/rules/base.lst` and `/usr/share/X11/xkb/rules/evdev.lst`.
+after `! variant` in `/usr/share/X11/xkb/rules/base.lst` and `/usr/share/X11/xkb/rules/evdev.lst`.
 3.  Add the folowing lines inside `<layoutList> ... </layoutList>` in `/usr/share/X11/xkb/rules/base.xml` and `/usr/share/X11/xkb/rules/evdev.xml`:
 
     ```
@@ -44,7 +44,8 @@ after `variant` in `/usr/share/X11/xkb/rules/base.lst` and `/usr/share/X11/xkb/r
         </variant>
       </variantList>
     </layout>
-  ```
+    ```
+
 4.  Restart the Xorg server or your computer.
 5.  Now you can finde the layout in the keyboard settings of your disktop manager: 
 Tamazight (Tamazgha, Latin caracters) and Tamazight (Tamazgha, Tifinagh caracters).
