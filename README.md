@@ -13,9 +13,9 @@ All operations will be done as **root**.
 1.  Copy the file `symbols/dz` to `/usr/share/X11/xkb/symbols/dz`.
 2.  Add `dz              Amazigh (Tamazgha)` after `!layout` and 
 ```
-  tif             dz: Tamazight (Tamazgha, Tifinagh caracters)
-  lat             dz: Tamazight (Tamazgha, Latin caracters)
-  ar              dz: Arabic (Tamazgha)
+  ber             dz: Berber (Algeria, Tifinagh caracters)
+  la              dz: Latin (Algeria, Latin caracters)
+  ar              dz: Arabic (Algeria)
 ```
 after `! variant` in `/usr/share/X11/xkb/rules/base.lst` and `/usr/share/X11/xkb/rules/evdev.lst`.
 3.  Add the folowing lines inside `<layoutList> ... </layoutList>` in `/usr/share/X11/xkb/rules/base.xml` and `/usr/share/X11/xkb/rules/evdev.xml`:
@@ -24,32 +24,37 @@ after `! variant` in `/usr/share/X11/xkb/rules/base.lst` and `/usr/share/X11/xkb
     <layout>
       <configItem>
         <name>dz</name>
-        <shortDescription>lat</shortDescription>
-        <description>Tamazight (Tamazgha, Latin caracters)</description>
+        <shortDescription>la</shortDescription>
+        <description>Berber (Algeria, Latin caracters)</description>
       </configItem>
       <variantList>
         <variant>
           <configItem>
-            <name>tif</name>
-            <shortDescription>tif</shortDescription>
-            <description>Tamazight (Tamazgha, Tifinagh caracters)</description>
+            <name>ber</name>
+            <shortDescription>ber</shortDescription>
+            <description>Berber (Algeria, Tifinagh caracters)</description>
+            <languageList>
+              <iso639Id>ber</iso639Id>
+            </languageList>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>ar</name>
             <shortDescription>ar</shortDescription>
-            <description>Arabic (Tamazgha)</description>
+            <description>Arabic (Algeria)</description>
+            <languageList>
+              <iso639Id>ara</iso639Id>
+            </languageList>
           </configItem>
         </variant>
       </variantList>
     </layout>
     ```
-
 4.  Restart the Xorg server or your computer.
 5.  Now you can finde the layout in the keyboard settings of your disktop manager: 
-Tamazight (Tamazgha, Latin caracters) and Tamazight (Tamazgha, Tifinagh caracters).
+Berber (Algeria, Tifinagh caracters), Latin (Algeria, Latin caracters) or Arabic (Algeria).
 
 To Do:
 ------
-Create an installation script.
+Create an installation script, or contribute it to XOrg at [freedesktop.org](https://www.freedesktop.org/wiki/Software/XKeyboardConfig)

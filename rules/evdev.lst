@@ -3,6 +3,6 @@
 
 
 ! variant
-  tif             dz: Tamazight (Tamazgha, Tifinagh caracters)
-  lat             dz: Tamazight (Tamazgha, Latin caracters)
-  ar              dz: Arabic (Tamazgha)
+  ber             dz: Berber (Algeria, Tifinagh caracters)
+  la              dz: Latin (Algeria, Latin caracters)
+  ar              dz: Arabic (Algeria)

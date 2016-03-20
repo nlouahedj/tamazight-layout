@@ -5,22 +5,28 @@
 	<layout>
       <configItem>
         <name>dz</name>
-        <shortDescription>lat</shortDescription>
-        <description>Tamazight (Tamazgha, Latin caracters)</description>
+        <shortDescription>la</shortDescription>
+        <description>Berber (Algeria, Latin caracters)</description>
       </configItem>
       <variantList>
         <variant>
           <configItem>
-            <name>tif</name>
-            <shortDescription>tif</shortDescription>
-            <description>Tamazight (Tamazgha, Tifinagh caracters)</description>
+            <name>ber</name>
+            <shortDescription>ber</shortDescription>
+            <description>Berber (Algeria, Tifinagh caracters)</description>
+            <languageList>
+              <iso639Id>ber</iso639Id>
+            </languageList>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>ar</name>
             <shortDescription>ar</shortDescription>
-            <description>Arabic (Tamazgha)</description>
+            <description>Arabic (Algeria)</description>
+            <languageList>
+              <iso639Id>ara</iso639Id>
+            </languageList>
           </configItem>
         </variant>
       </variantList>
