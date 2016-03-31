@@ -6,14 +6,14 @@
       <configItem>
         <name>dz</name>
         <shortDescription>la</shortDescription>
-        <description>Berber (Algeria, Latin caracters)</description>
+        <description>Berber (Algeria, Latin characters)</description>
       </configItem>
       <variantList>
         <variant>
           <configItem>
             <name>ber</name>
             <shortDescription>ber</shortDescription>
-            <description>Berber (Algeria, Tifinagh caracters)</description>
+            <description>Berber (Algeria, Tifinagh characters)</description>
             <languageList>
               <iso639Id>ber</iso639Id>
             </languageList>
