@@ -60,4 +60,8 @@ Berber (Algeria, Tifinagh characters), Latin (Algeria, Latin characters) or Arab
 
 To Do:
 ------
-Create an installation script, or contribute it to XOrg at [freedesktop.org](https://www.freedesktop.org/wiki/Software/XKeyboardConfig)
+Create an installation script.
+
+Done:
+-----
+Pushed to git [xkeyboard-config](https://cgit.freedesktop.org/xkeyboard-config/commit/?id=ae4343a9ef22b3a8941effdc7fef07cd22385b9f)
